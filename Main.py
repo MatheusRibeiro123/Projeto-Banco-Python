@@ -10,7 +10,8 @@ from Conta import Conta
 
 c1 = Cliente("João",19989735625)
 
-conta = Conta(c1.nome,12,0)
+conta = Conta(c1._nome,12,0)
 
 print(conta.titular, ", numero: ",conta.numero , "seu saldo: ", conta.saldo)
+
 
