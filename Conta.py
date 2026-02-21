@@ -1,8 +1,8 @@
 class Conta:
     def __init__(self, titular , numero, saldo):
         self._saldo=0
-        self.numero=numero
-        self.titular=titular
+        self._numero=numero
+        self._titular=titular
 
     def get_saldo(self):
         return self._saldo
