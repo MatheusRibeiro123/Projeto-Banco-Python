@@ -1,4 +1,6 @@
 class Main:
+    "Classe principal"
+    
     pass
 
 print("testando a classe")
@@ -14,6 +16,8 @@ conta12 = Conta(c1.get_nome(),12,0)
 conta12.depositar(155)
 conta12.saque(55)
 conta12. extrato()
+
+print (Main.__doc__)
 
 
 
